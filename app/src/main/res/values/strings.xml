@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">wineTest</string>
+
+    <string name="q1">좋아하는 와인 종류?</string>
+    <string name="q2">좋아하는 와인 당도는?</string>
+    <string name="q3">좋아하는 와인 산미는?</string>
+    <string name="q4">좋아하는 와인 바디감은?</string>
+    <string name="q5">좋아하는 와인 향은?</string>
+    <string name="q6">좋아하는 와인 안주는?</string>
+    <string name="q7">7th</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

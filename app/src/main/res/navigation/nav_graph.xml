@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/q1Fragment">
+
+    <fragment
+        android:id="@+id/q1Fragment"
+        android:name="com.example.winetest.fragment.Q1Fragment"
+        android:label="fragment_q1"
+        tools:layout="@layout/fragment_q1" >
+        <action
+            android:id="@+id/action_q1Fragment_to_q2Fragment"
+            app:destination="@id/q2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/q2Fragment"
+        android:name="com.example.winetest.fragment.Q2Fragment"
+        android:label="fragment_q2"
+        tools:layout="@layout/fragment_q2" >
+        <action
+            android:id="@+id/action_q2Fragment_to_q3Fragment"
+            app:destination="@id/q3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/q3Fragment"
+        android:name="com.example.winetest.fragment.Q3Fragment"
+        android:label="fragment_q3"
+        tools:layout="@layout/fragment_q3" >
+        <action
+            android:id="@+id/action_q3Fragment_to_q4Fragment"
+            app:destination="@id/q4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/q4Fragment"
+        android:name="com.example.winetest.fragment.Q4Fragment"
+        android:label="fragment_q4"
+        tools:layout="@layout/fragment_q4" >
+        <action
+            android:id="@+id/action_q4Fragment_to_q5Fragment"
+            app:destination="@id/q5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/q5Fragment"
+        android:name="com.example.winetest.fragment.Q5Fragment"
+        android:label="fragment_q5"
+        tools:layout="@layout/fragment_q5" >
+        <action
+            android:id="@+id/action_q5Fragment_to_q6Fragment"
+            app:destination="@id/q6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/q6Fragment"
+        android:name="com.example.winetest.fragment.Q6Fragment"
+        android:label="fragment_q6"
+        tools:layout="@layout/fragment_q6" >
+        <action
+            android:id="@+id/action_q6Fragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.winetest.fragment.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+</navigation>
